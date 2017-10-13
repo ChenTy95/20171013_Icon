@@ -40,14 +40,7 @@ namespace _20171013_Icon
             [DllImport("shell32.dll")]
             public static extern uint ExtractIconEx(string lpszFile, int nIconIndex, int[] phiconLarge, int[] phiconSmall, uint nIcons);
         }
-
-
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             openFileDialog1.ShowDialog();
